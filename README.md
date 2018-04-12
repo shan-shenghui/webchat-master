@@ -1,5 +1,8 @@
 # webchat
 [![Build Status](https://www.travis-ci.org/hua1995116/webchat.svg?branch=master)](https://www.travis-ci.org/hua1995116/webchat)
+## 注释： 不是个人项目
+## 项目原来地址 
+https://blog.csdn.net/blueblueskyhua/article/details/70807847 
 ## 项目历程
 [vue+websocket+express+mongodb实战项目（实时聊天）（一）](http://blog.csdn.net/blueblueskyhua/article/details/70807847)
 
