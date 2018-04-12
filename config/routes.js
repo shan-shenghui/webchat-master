@@ -44,9 +44,9 @@ module.exports =  (app) => {
         // 判断是否存在./dist/static/files文件
         fs.stat('./dist/static/files', (err, stats) => {
           if (JSON.stringify(stats) === undefined) {
-            fs.mkdirSync('./dist', '0777')
-            fs.mkdirSync('./dist/static',  '0777')
-            fs.mkdirSync('./dist/static/files',  '0777')
+            fs.mkdirSync('./dist', 0777)
+            fs.mkdirSync('./dist/static', 0777)
+            fs.mkdirSync('./dist/static/files', 0777)
           }
           storeFiles(uploadedPath, dstPath, fields, inPath)
         })
